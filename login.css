@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_PtbM7_y-5aBRhe8PxumFlz1uXlh4SYnQow&usqp=CAU");
+  }
+
+
+::placeholder{
+    color: #390692;
+    
+}
+
+
+.wrapper{
+    width: 70%;
+    height: 70vh;
+    max-width: 450px;
+    position:absolute;
+    left: 65%;
+    transform: translate(-20%,20%);
+    background: #fff;
+    padding:50px 60px 70px;
+    text-align: center;
+    background-color: #5826af;
+    
+}
+
+.input-field{
+    background: #eaeaea;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 18px 15px;
+}
+
+.input-field i{
+    margin-left: 15px;
+    color: #999;
+}
+
+
+.wrapper-box h1{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color:black;
+    position: relative;
+}
+
+.wrapper-box h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: black;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+.remember{
+    margin: -5px 0;
+    width: 20px;
+
+}
+
+.remember lable{
+    color: #fff;
+    font-size: 14px;
+}
+
+.remember lable{
+    color:black;
+    font-size: 20px;
+    
+    
+    
+}
+
+.remember lable input{
+    accent-color: #0ef;
+}
+
+
+
+button{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin: 30px;
+    background-color: #0ef;
+    box-shadow: 0 0 10px #0ef;
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 70px;
+    border: none;
+    outline: none;
+    text-align: center;
+    right: 10px;
+    
+}
+
+.signup-link{
+    font-size: 20px;
+    text-align: center;
+    margin: 15px 0;
+
+}
+
+  
+
+
+  
