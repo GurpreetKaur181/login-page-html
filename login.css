@@ -11,12 +11,12 @@ body{
     background-position: center;
     background-size: cover;
     position: relative;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_PtbM7_y-5aBRhe8PxumFlz1uXlh4SYnQow&usqp=CAU");
+    background-image: url("https://t3.ftcdn.net/jpg/02/69/46/42/360_F_269464287_Q2DoeIRT847orJlYDSX59T8pjlF9nO94.jpg");
   }
 
 
 ::placeholder{
-    color: #390692;
+    color: #120464;
     
 }
 
@@ -31,7 +31,7 @@ body{
     background: #fff;
     padding:50px 60px 70px;
     text-align: center;
-    background-color: #5826af;
+    background-color: rgb(26, 34, 104);
     
 }
 
@@ -58,19 +58,19 @@ input{
 }
 
 
-.wrapper-box h1{
+.wrapper h1{
     font-size: 30px;
-    margin-bottom: 60px;
-    color:black;
+    margin-bottom: 20px;
+    color:rgb(12, 209, 223);
     position: relative;
 }
 
-.wrapper-box h1::after{
+.wrapper h1::after{
     content: '';
     width: 30px;
     height: 4px;
     border-radius: 3px;
-    background: black;
+    background:rgb(12, 209, 223) ;
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -80,29 +80,26 @@ input{
     overflow: hidden;
 }
 
-.remember{
-    margin: -5px 0;
-    width: 20px;
-
-}
-
-.remember lable{
-    color: #fff;
-    font-size: 14px;
-}
-
-.remember lable{
-    color:black;
+/*.remember{
     font-size: 20px;
-    
-    
-    
-}
+    text-align: center;
+    margin: 15px 0;
+    color: rgb(12, 209, 223);
+ 
+    }*/
 
-.remember lable input{
-    accent-color: #0ef;
-}
-
+    .remember p{
+        text-align: left;
+        font-size: 20px;
+        color: rgb(12, 209, 223);
+    
+    }
+    
+    .remember p a{
+        text-decoration: none;
+        color: rgb(230, 15, 62);
+    }
+    
 
 
 button{
@@ -128,9 +125,14 @@ button{
     font-size: 20px;
     text-align: center;
     margin: 15px 0;
+    color: rgb(12, 209, 223);
+
 
 }
-
+ .signup-link a{
+    color: rgb(230, 15, 62);
+    text-decoration: none;
+ }
   
 
 
