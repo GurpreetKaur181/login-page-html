@@ -110,10 +110,17 @@ form p a{
     outline: 0;
     cursor: pointer;
     transition: backgroun 1s;
-    box-shadow: 0 0 10px #0f0d96;
-    font-size: 16px;  
-   
-}
+    box-shadow: 0 0 10px #1c18e2;
+    font-size: 16px; 
+
+ }
+
+ .btn-field a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 2opx;
+ }
+
 
 .input-group{
     height: 280px;
